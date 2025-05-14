@@ -2,6 +2,29 @@
 
 A CUDA-accelerated tool for recovering Ethereum private keys from partial BIP39 mnemonics.
 
+## Install Rust
+
+1. Install Rust using rustup:
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+2. Configure current shell:
+```bash
+source $HOME/.cargo/env
+```
+
+3. Verify installation:
+```bash
+rustc --version
+cargo --version
+```
+
+4. Update Rust (optional):
+```bash
+rustup update
+```
+
 ## Prerequisites
 
 - NVIDIA GPU with CUDA support
